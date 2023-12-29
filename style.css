@@ -1,41 +1,93 @@
-body{
+body {
     background-color: #CCCCCC;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container{
-    background:linear-gradient(rgb(33, 13, 37),rgb(98, 30, 110));
+
+.container {
+    background: linear-gradient(rgb(33, 13, 37), rgb(98, 30, 110));
     border-radius: 5px;
     margin: auto;
-    width: 600px;
+    width: 670px;
 }
+
 .header {
     padding: 0.9rem;
 }
+
 .header-title {
     color: #FECD23;
-    font-size: 1.7rem;/* 1rem equivale a 16px (depende, mas no geral sim - ir em inspecionar no F12 e verificar)*/
+    font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 2rem;
     text-align: center;
 }
-.header-subtitle{
+
+.header-subtitle {
     color: #fff;
     text-align: center;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
-.header-subtitleN{
+
+.header-subtitleN {
     color: #fff;
     font-weight: 500;
-    
+
 }
-@media screen and (max-width:620px){
-    html{
+
+.container2 {
+    background: linear-gradient(rgb(98, 30, 110), rgb(33, 13, 37));
+    border-radius: 5px;
+    margin: auto;
+    width: 90%;
+}
+
+.header2 {
+    padding: 1rem;
+    color: #fff;
+}
+
+input {
+    width: 60%;
+    height: 22px;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #009E9E;
+}
+.container-title{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 490;
+}
+
+.desenvolvimento{
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:620px) {
+    html {
         font-size: 14px;
     }
-    .container{
+
+    .container {
         width: 95%;
     }
-    .header{
+
+    .header {
         padding: 15px;
+    }
+
+    input {
+        box-sizing: border-box;
     }
 }

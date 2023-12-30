@@ -5,9 +5,9 @@ body {
 
 .container {
     background: linear-gradient(rgb(33, 13, 37), rgb(98, 30, 110));
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin: auto;
-    width: 670px;
+    width: 600px;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 
 .header-title {
     color: #FECD23;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
     text-align: center;
@@ -37,7 +37,7 @@ body {
 
 .container2 {
     background: linear-gradient(rgb(98, 30, 110), rgb(33, 13, 37));
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin: auto;
     width: 90%;
 }
@@ -49,10 +49,10 @@ body {
 }
 
 input {
-    width: 60%;
+    width: 70%;
     height: 22px;
     font-size: 0.8rem;
-    border-radius: 3px;
+    border-radius: 0.2rem;
     border: 0;
     margin: 10px;
     text-align: left;
@@ -66,6 +66,7 @@ input:focus {
     font-size: 1.2rem;
     text-align: center;
     font-weight: 490;
+    margin-bottom: 1rem;
 }
 .flex-container {
     display: flex;
@@ -74,7 +75,6 @@ input:focus {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
-    
 }
 .option{
     margin: 1rem;
@@ -85,6 +85,8 @@ input:focus {
     border-style: solid;
     border-image: linear-gradient(to top, rgb(51, 41, 137), rgb(38, 55, 218)) 1;
     border-radius: 1.3rem;
+    width: 7.5rem;
+    margin-top: 1rem;
 }
 .img {
     text-align: center;
@@ -94,7 +96,15 @@ input:focus {
     width: 5rem;
 }
 
-
+button{
+    background: rgb(33, 13, 37);
+    color: #fff;
+    border: 0;
+    margin: 0.5rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.15rem;
+}
 
 .desenvolvimento{
     color: #fff;

@@ -18,14 +18,14 @@ body {
     color: #FECD23;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .header-subtitle {
     color: #fff;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 0.8rem;
 }
 
@@ -40,6 +40,7 @@ body {
     border-radius: 0.5rem;
     margin: auto;
     width: 90%;
+    margin-top: 0.5rem;
 }
 
 .header2 {
@@ -62,57 +63,68 @@ input:focus {
     outline: none;
     box-shadow: 0 0 10px #009E9E;
 }
-.container-title{
+
+.container-title {
     font-size: 1.2rem;
     text-align: center;
     font-weight: 490;
     margin-bottom: 1rem;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
-.option{
+
+.option {
     margin: 1rem;
 }
-.col-1, .col-2, .col-3{
+
+.col-1, .col-2, .col-3 {
     background: linear-gradient(rgb(62, 96, 239), rgb(106, 187, 252));
     border-width: 0.6rem;
     border-style: solid;
     border-image: linear-gradient(to top, rgb(51, 41, 137), rgb(38, 55, 218)) 1;
     border-radius: 1.3rem;
-    width: 7.5rem;
+    width: 8rem;
     margin-top: 1rem;
 }
+
 .img {
     text-align: center;
 }
 
 .img object {
-    width: 5rem;
+    width: 6rem;
 }
 
-button{
+button {
     background: rgb(33, 13, 37);
     color: #fff;
     border: 0;
     margin: 0.5rem;
-    width: 4rem;
-    height: 2rem;
+    width: 5rem;
+    height: 2.5rem;
     border-radius: 0.15rem;
 }
 
-.desenvolvimento{
+.desenvolvimento {
     color: #fff;
     text-align: center;
     font-size: 0.6rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
+
+.desenvolvimento .margin {
+    color: rgb(98, 30, 110);
+    margin-top: 0;
+}
+
 @media screen and (max-width:620px) {
     html {
         font-size: 14px;
@@ -128,5 +140,17 @@ button{
 
     input {
         box-sizing: border-box;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
     }
 }

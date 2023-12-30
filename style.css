@@ -45,16 +45,17 @@ body {
 .header2 {
     padding: 1rem;
     color: #fff;
+    text-align: center;
 }
 
 input {
     width: 60%;
     height: 22px;
-    padding: 0.3rem;
     font-size: 0.8rem;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 0;
     margin: 10px;
+    text-align: left;
 }
 
 input:focus {
@@ -66,13 +67,41 @@ input:focus {
     text-align: center;
     font-weight: 490;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+}
+.option{
+    margin: 1rem;
+}
+.col-1, .col-2, .col-3{
+    background: linear-gradient(rgb(62, 96, 239), rgb(106, 187, 252));
+    border-width: 0.6rem;
+    border-style: solid;
+    border-image: linear-gradient(to top, rgb(51, 41, 137), rgb(38, 55, 218)) 1;
+    border-radius: 1.3rem;
+}
+.img {
+    text-align: center;
+}
+
+.img object {
+    width: 5rem;
+}
+
+
 
 .desenvolvimento{
     color: #fff;
     text-align: center;
     font-size: 0.6rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 @media screen and (max-width:620px) {
     html {
